@@ -1,0 +1,31 @@
+userinfo check
+  is user in database 
+  #for loop w/ if to see if element is in list
+    if user is in db
+      is password correct
+        if pw is correct(stored in db)
+          grant access
+          bankmenuscreen()
+        else if incorrect and tries < limit:
+          give _ tries before asking security questions. 
+          iterate tries amount (forloop)
+          security questions -> func of q's
+          verify number in db -> check db (func)
+          if tries == limit of tries 
+            reset password or try again in - minutes
+ 
+  else if user not in db
+    add them -> create account 
+    or try a different account
+    call funct again
+  else
+    try again -> close application
+
+
+
+def Deposit(account_num, pin, from, to) :
+  accountNum & pin correct 
+and withdrawal operations
+ account deletion processes
+Account information modifications
+
